@@ -1,4 +1,3 @@
-
 # Especialización en Ciencia de Datos con Python
  
 	## Curso 1.- Fundamentos de la Ciencia de Datos y Estadística
