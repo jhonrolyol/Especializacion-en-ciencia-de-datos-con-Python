@@ -1,0 +1,135 @@
+% Preamble
+	\documentclass[11pt]{article}
+	% Usepackage
+	\usepackage[spanish]{babel} % Language
+	\usepackage{amsmath} % Maths
+	\usepackage{xcolor} % Colors
+	\usepackage[left = 2.54cm, right = 2.54cm, top = 2.54cm, bottom = 2.54cm]{geometry}
+	% Title
+	\title{\textbf{CHALLENGE 6}} % Title
+	\author{Jhon Roly Ordoñez Leon} % Name
+	\date{\today} % Date
+% Body
+\begin{document}
+	% Calling title
+	\maketitle
+	% Table of contents
+	% Section 1
+	\section{Pregunta 1}
+	Describe un caso donde apliques el ciclo básico de un análisis estadístico (Similar al caso de las elecciones o modelos en Banca). Sé lo más detallado posible (identificando los elementos de la estadística y/o utilizando gráficos de apoyo)
+		\begin{center}
+			\textbf{Solución}
+		\end{center}
+	Supongamos que se desea conocer la calificación promedio de todos los ingresantes en las universidades del Perú. Entonces, la  \textcolor{blue}{población}
+	estaría formada por las calificaciones de todos los ingresantes en las universidades del Perú (la calificación promedio de todos los ingresantes en las universidades del Perú sería un parámetro); la \textcolor{blue}{muestra} en este caso particular podría ser las calificaciones 
+	de los ingresantes en la Universidad Nacional de Ingeniería (la calificación promedio de todos los ingresantes en la Universidad Nacional de Ingeniería sería un estadígrafo).
+	
+	% Section 2
+	\section{Pregunta 2}
+	En una urna hay 4 bolas rojas, 3 bolas verdes y 2 bolas azules. Si se extrae una bola al azar, ¿cuál es la probabilidad de que sea verde? 
+		\begin{center}
+			\textbf{Solución}
+		\end{center}
+	
+	Sea $R =$ Rojo, $V =$ Verde, $A=$ Azul, entonces
+	\begin{equation}
+		S = \left\{  4R, 3V, 2A \right\}
+	\end{equation}
+	Donde, nos pide 
+	\begin{equation}
+		A = \left\{  \text{Obtener una bola de color verde} \right\}
+	\end{equation}
+	Por lo tanto, la probabilidad de que sea verde es:
+	\begin{equation}
+		P(A ) = \dfrac{3}{9} = 0.33
+	\end{equation}
+	
+	% Section 3
+	\section{Pregunta 3}
+	Si una baraja de cartas contiene 52 cartas, ¿cuál es la probabilidad de sacar una carta de corazones al azar?
+		\begin{center}
+			\textbf{Solución}
+		\end{center}
+		
+	Sea $T =$ Trebol, $C =$ Corazones, $E=$ Espada, $D=$ Diamante, entonces
+	\begin{equation}
+		S = \left\{  13T, 13C, 13E, 13D \right\}
+	\end{equation}
+	Donde, nos pide 
+	\begin{equation}
+		A = \left\{ \text{Obtener una carta de corazones} \right\}
+	\end{equation}
+	Por lo tanto, la probabilidad de sacar una carta de corazones es:
+	\begin{equation}
+		P(A ) = \dfrac{13}{52} = 0.25
+	\end{equation}
+	
+	% Section 4
+	\section{Pregunta 4}
+	Si lanzamos dos dados justos, ¿cuál es la probabilidad de que la suma de los puntos sea 7? (Sugerencia: Enlista los posibles resultados de lanzar dos dados para obtener tu espacio muestral y cuenta cuántos resultados suman 7)
+		\begin{center}
+			\textbf{Solución}
+		\end{center}
+	Listamos los posibles resultados de lanzar dos dados 
+		\begin{equation}
+			S = \{ 2, 3, 4, 5, 6, \textcolor{blue}{7}, 3, 4, 5, 6, \textcolor{blue}{7}, 8, 4, 5, 6, \textcolor{blue}{7}, 8, 9, 5,  6, \textcolor{blue}{7}, 8, 9, 10, 6, \textcolor{blue}{7}, 8, 9, 10, 11, \textcolor{blue}{7}, 8, 9, 10, 11, 12  \}
+		\end{equation}
+	Donde, nos pide 
+	\begin{equation}
+		A = \left\{ \text{Obtener una suma de 7} \right\}
+	\end{equation}
+	Por lo tanto, la probabilidad de obtener una suma de 7 es:
+	\begin{equation}
+		P(A ) = \dfrac{6}{36} = 0.16
+	\end{equation}
+
+	% Section 5
+	\section{Pregunta 5}
+	Si se lanzan dos monedas (suponer que son monedas no trucadas), ¿cuál es la probabilidad de obtener al menos una cara? (Sugerencia: Enlista los posibles resultados de lanzar dos monedas: Cara-cara, cara-sello,etc)
+		\begin{center}
+			\textbf{Solución}
+		\end{center}
+    Listamos los posibles resultados de lanzar dos monedas
+		\begin{equation}
+			S = \{ CC, CS, SC, SS \}
+		\end{equation}
+	Donde,  nos pide 
+	\begin{equation}
+		A = \left\{ \text{Obtener al menos una cara} \right\}
+	\end{equation}
+	Por lo tanto, la probabilidad de obtener al menos una cara es:
+	\begin{equation}
+		P(A ) = \dfrac{3}{4} = 0.75
+	\end{equation}
+
+	% Section 6
+	\section{Pregunta 6}
+	Una urna contiene 5 bolas rojas y 3 bolas verdes. Si se extraen dos bolas al azar sin reemplazo, ¿cuál es la probabilidad de que ambas sean rojas? (Sugerencia: Calcula la probabilidad de que la primera bola sea roja y multiplicarla con la probabilidad de que la segunda bola sea roja, recuerda que para la segunda selección hay menos bolas)
+		\begin{center}
+			\textbf{Solución}
+		\end{center}
+	Sea $R = $ Roja y $V = $ Verde, entonces el espacio muestral sería:
+	\begin{equation}
+		\Omega = \left \{RR,RV,VR,VV\right\}
+	\end{equation}
+ 	Donde, nos pide
+ 	\begin{equation}
+ 		A = \left \{\text{Obtener que ambas bolas sean Rojas}\right\}
+ 	\end{equation}
+	Probabilidad de que la primera bola sea roja es:
+	\begin{equation}
+		P(A ) = \dfrac{5}{8}
+	\end{equation}
+	 Probabilidad de que la segunda bola sea roja es:
+	\begin{equation}
+		P(A ) = \dfrac{4}{7}
+	\end{equation}
+	Por lo tanto, la probabilidad de que ambas bolas sean rojas es:
+	\begin{equation}
+		P(A ) = \dfrac{5}{8}\times\dfrac{4}{7}  = \dfrac{5}{14}
+	\end{equation}
+\end{document}
+
+
+
+
