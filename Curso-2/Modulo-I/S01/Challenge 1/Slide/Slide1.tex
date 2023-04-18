@@ -1,0 +1,89 @@
+% Preámbulo
+    \documentclass[aspectratio=169]{beamer}
+    \usepackage[utf8]{inputenc}
+    % Paquetes
+        \usepackage{multimedia}
+        \usepackage{hyperref}
+        \usepackage{xcolor}
+        \usepackage{graphicx}
+        \usepackage{lipsum}
+        \usepackage{pgfpages}
+    % Tema 
+        \usetheme[progressbar=frametitle]{metropolis}
+        \setbeamertemplate{frame numbering}[fraction]
+        \definecolor{primary}{RGB}{245, 10, 10}
+        \setbeamercolor{palette primary}{bg=white, fg=black}
+        \setbeamercolor{background canvas}{parent=palette primary}
+        \setbeamercolor{normal text}{fg=black}
+        \setbeamercolor{progress bar}{use=palette primary,fg=primary}
+    % Título de la página
+        \title{CHALLENGE 1}
+        \subtitle{Módulo Estadística Descriptiva con Python}
+    	\institute[Proyecto Final]{
+    		{\large
+    			\begin{center}
+    				\textbf{GRUPO ESTUDIO}
+    			\end{center}
+    		}
+    		\flushleft{ \textbf{INTEGRANTES.-} }
+    		\begin{itemize}
+    			\item Alonso Macha, Alex Daniel
+    			\item Lopez Rengifo, Antonio Jose
+    			\item Llanque Zapana, Luis Fernando
+    			\item Miranda Hankgo, Ivan Cesar
+    			\item Ordoñez Leon, Jhon Roly (Representante)
+    		\end{itemize} 
+    	}
+        \date{}
+% Cuerpo del documento
+\begin{document}
+    % Título
+    \begin{frame}
+        \titlepage
+    \end{frame}
+    % Contenido
+    \begin{frame}{Contenido}
+        \tableofcontents
+    \end{frame}
+    % Sección 1
+    \section{1.- Tema}
+        \begin{frame}{Tema}
+            \begin{center}
+            	\textbf{“Precios de la vivienda - Técnicas Avanzadas de Regresión”}
+            \end{center}
+            Partiendo de la necesidad de una inmobiliaria por conocer el comportamiento
+            del precio de  una vivienda según las variables explicativas que describen
+            (casi) todos los aspectos de las casas residenciales en Ames, Iowa, 
+            esta competencia lo desafía a predecir el precio final de cada vivienda.
+        \end{frame}
+    % Sección 2
+    \section{2.- Data}
+        \begin{frame}{Data}
+        	\begin{itemize}
+        		\item La data se obtuvo del siguiente enlace: \textcolor{blue}{\url{https://www.kaggle.com/competitions/house-prices-advanced-regression-techniques/data }}
+        		\item Existen 4 archivos, de las cuales se seleccionan dos.
+        		\begin{itemize}
+        			\item train.csv
+        			\item data$\_$description.txt
+        		\end{itemize}
+        		\item La data \textbf{train.csv} cuenta con 80 variables, de las cuales se escogieron 5.
+        		\begin{enumerate}
+        			\item \textbf{MSZoning.-} Clasificación general de zonificación.
+        			\item \textbf{Condition1.-} Proximidad a carretera principal o vía férrea.
+        			\item \textbf{OverallQual.-} Material general y calidad de acabado.
+        			\item \textbf{GrLivArea.-} Pies cuadrados de superficie habitable sobre el nivel de suelo.
+        			\item \textbf{SalePrice.-} Precio de venta de la propiedad en dólares. Esta es la variable de destino que está tratando de predecir.
+        		\end{enumerate}
+        	\end{itemize}
+        \end{frame}
+    % Sección 3
+    \section{3.- Preguntas}
+	    \begin{frame}{Preguntas}
+	    	\begin{enumerate}
+	    		\item ¿Cuál es la correlación entre el área habitada y el precio de la vivienda?
+	    		\item ¿Cuál es la zona de clasificación con mayor demanda de clientes?
+	    		\item ¿Según la proximidad a la carretera principal cual es la categoría que tiene mayor número de ventas?
+	    		\item ¿Cuál es la relación que existe entre el acabado de la vivienda y el precio de venta?
+	    	\end{enumerate}
+	    \end{frame}          
+\end{document}
