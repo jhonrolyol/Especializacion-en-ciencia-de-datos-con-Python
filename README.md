@@ -2,7 +2,7 @@
 
 ## Curso 1.- Fundamentos de la Ciencia de Datos y Estadística
 ### Módulo I.- Introducción a Python
-- Sesión 1
+- Sesión 1.- [link](https://github.com/jhonrolyol/Especializacion-en-ciencia-de-datos-con-Python/tree/main/Curso-1/Modulo-I/S01)
 - Sesión 2
 ### Módulo II.- Introducción al Análisis de Datos y  Algebra Lineal con Python
 - Sesión 3
