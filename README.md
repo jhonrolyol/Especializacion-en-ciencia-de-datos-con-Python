@@ -43,14 +43,15 @@
 - :file_folder:Sesión 4.- :point_right:[link](https://github.com/jhonrolyol/Especializacion-en-ciencia-de-datos-con-Python/tree/main/Curso-2/Modulo-III/S04 "Material de la sesión 4")
 - :file_folder:Sesión 5.- :point_right:[link](https://github.com/jhonrolyol/Especializacion-en-ciencia-de-datos-con-Python/tree/main/Curso-2/Modulo-III/S05 "Material de la sesión 5")
 
-## Proyecto de Abálisis Exploratorio
+## Proyecto de Análisis Exploratorio
 > **Objetivo**
 >> Consolidar los conocimientos aprendidos durante el curso aplicándolos a un caso práctico. 
 
 >> Conocer los fundamentos para graficar mapas usando la librería Folium en Python
+- :file_folder: Proyecto final  :point_right: []().
+
+## Curso 3.- Machine Learning con Python
 
 
 
-
-## Curso 3.- 
 		
