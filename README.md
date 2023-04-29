@@ -6,8 +6,9 @@ El obetivo es conocer los fundamentos de Python y su utilidad en la Ciencia de D
 - :file_folder:Sesión 1.- :point_right:[link](https://github.com/jhonrolyol/Especializacion-en-ciencia-de-datos-con-Python/tree/main/Curso-1/Modulo-I/S01 "Material de la sesión 1")
 - :file_folder:Sesión 2.- :point_right:[link](https://github.com/jhonrolyol/Especializacion-en-ciencia-de-datos-con-Python/tree/main/Curso-1/Modulo-I/S02 "Material de la sesión 2")
 ### Módulo II.- Introducción al Análisis de Datos y  Algebra Lineal con Python
-+ Conocer los fundamentos del análisis de datos, proceso, diferentes roles en el mundo de datos.
-+ Conocer los fundamentos del álgebra lineal y su importancia en la ciencia de datos.
+> **Objetivos**
+>> Conocer los fundamentos del análisis de datos, proceso, diferentes roles en el mundo de datos.
+>> Conocer los fundamentos del álgebra lineal y su importancia en la ciencia de datos.
 - :file_folder:Sesión 3.- :point_right:[link](https://github.com/jhonrolyol/Especializacion-en-ciencia-de-datos-con-Python/tree/main/Curso-1/Modulo-II/S03 "Material de la sesión 3")
 - :file_folder:Sesión 4.- :point_right:[link](https://github.com/jhonrolyol/Especializacion-en-ciencia-de-datos-con-Python/tree/main/Curso-1/Modulo-II/S04 "Material de la sesión 4")
 - :file_folder:Sesión 5.- :point_right:[link](https://github.com/jhonrolyol/Especializacion-en-ciencia-de-datos-con-Python/tree/main/Curso-1/Modulo-II/S05 "Material de la sesión 5")
